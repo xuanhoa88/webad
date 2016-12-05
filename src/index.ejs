@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- for Google -->
+  <% if (google) { %>
+    <meta name="description" content="<%= google.description %>" />
+    <meta name="keywords" content="" />
+    <meta name="author" content="" />
+    <meta name="copyright" content="" />
+    <meta name="application-name" content="Curiocity Platform" />
+  <% } %>
+
+  <!-- for Facebook -->
+  <% if (facebook) { %>
+    <meta property="og:title" content="<%= facebook.title %>" />
+    <meta property="og:type" content="article" />
+    <meta property="og:image" content="<%= facebook.image %>" />
+    <meta property="og:url" content="<%= facebook.url %>" />
+    <meta property="og:description" content="<%= facebook.description %>" />
+  <% } %>
+
+  <!-- for Twitter -->
+  <% if (twitter) { %>
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="<%= twitter.title %>" />
+    <meta name="twitter:description" content="<%= twitter.description %>" />
+    <meta name="twitter:image" content="<%= twitter.image %>" />
+  <% } %>
+
+  <title>Webad</title>
+</head>
+<body>
+  <div id="app"></div>
+  <script src="/bundle.app.js"></script></body>
+</body>
+</html>

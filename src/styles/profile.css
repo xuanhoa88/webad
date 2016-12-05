@@ -1,0 +1,153 @@
+#user-profile .personal-infomation h4,
+#user-profile .favourite-infomation h4,
+#user-profile .report-infomation h4 {
+    background-color: #C6C6C6;
+    border-radius: 0px;
+    padding: 10px;
+}
+#user-profile .report-infomation ul.nav-tabs {
+    font-size: 18px;
+    border: none;
+    background-color: #C6C6C6;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#user-profile .report-infomation ul.nav-tabs > li > a {
+    background-color: inherit;
+    border: none;
+    color: inherit;
+}
+#user-profile .report-infomation ul.nav-tabs > li.active > a,
+#user-profile .report-infomation ul.nav-tabs > li.active > a:hover,
+#user-profile .report-infomation ul.nav-tabs > li.active > a:focus {
+    background-color: inherit;
+    color: #FA7470;
+}
+#user-profile .personal-infomation {
+    border-bottom: 1px solid #ddd;
+}
+#user-profile .personal-infomation .btn-save-profile {
+    background-color: #FA7470;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+#user-profile .personal-infomation i.glyphicon {
+    font-size: 22px;
+    top: 0;
+}
+#user-profile .favourite-infomation .datatable-favourite table > tbody tr:last-child {
+    border-bottom: 1px solid #ddd;
+}
+#user-profile .favourite-infomation .datatable-favourite table > tbody td:first-child {
+    border-left: 1px solid #ddd;
+}
+#user-profile .favourite-infomation .datatable-favourite table > tbody td:last-child {
+    border-right: 1px solid #ddd;
+}
+#user-profile .favourite-infomation .datatable-favourite table > tbody td > span.badge {
+    padding: 7px;
+    border-radius: 50%;
+}
+#user-profile .favourite-infomation .datatable-favourite .btn-load-more-favourite {
+    background-color: #FA7470;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+#user-profile .favourite-infomation .datatable-favourite .btn-position-bottom {
+    /*
+    position: absolute;
+    right: 0;
+    top: 260px;
+    */
+}
+#user-profile .report-infomation h5.tab-header {
+    font-size: 14px;
+    font-weight: bold;
+}
+#user-profile .report-infomation .datatable-transaction-history .filtering-block {
+    margin-bottom: 10px;
+}
+#user-profile .report-infomation .datatable-balance .btn-balance,
+#user-profile .report-infomation .datatable-balance .btn-cash-out {
+    background-color: #FA7470;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+
+/*RESPONSIVE*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #user-profile .personal-infomation .avatar{
+        width: 200px;
+        display: table;
+        margin: auto;
+    }
+    #user-profile .personal-infomation .last-name{
+        margin-left: 42px;
+        margin-top: 15px;
+    }
+    #user-profile .personal-infomation .district{
+        margin-top: 50px;
+        margin-left: 42px;
+    }
+    #user-profile .personal-infomation .row-profile{
+        margin-bottom: 20px;
+    }
+    .balance-tab .datatable-balance .balance-label{
+        padding-left: 0;
+    }
+    .datatable-transaction-history .query-date{
+        display: table;
+        margin: 0 auto 20px auto;
+    }
+    .datatable-transaction-history .btn-query{
+        display: table;
+        margin: 0 auto 20px auto;
+    }
+    .btn-load-more-favourite{
+        display: none;
+    }
+    .favourite-infomation .datatable-favourite .table-responsive .col-md-1{
+        width: 75px;
+    }
+}
+@media screen and (max-width: 480px) {
+    #user-profile .personal-infomation .avatar{
+        width: 200px;
+        display: table;
+        margin: auto;
+    }
+    #user-profile .personal-infomation .last-name{
+        margin-left: 30px;
+        margin-top: 15px;
+    }
+    #user-profile .personal-infomation .district{
+        margin-top: 50px;
+        margin-left: 30px;
+    }
+    #user-profile .personal-infomation .row-profile{
+        margin-bottom: 20px;
+    }
+    .balance-tab .datatable-balance .balance-label{
+        padding-left: 0;
+    }
+    .datatable-transaction-history .query-date{
+        margin-bottom: 20px;
+    }
+    .datatable-transaction-history .btn-query{
+        margin-bottom: 20px;
+    }
+    .btn-load-more-favourite{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #user-profile .personal-infomation .last-name{
+        margin-left: 0px;
+        margin-top: 15px;
+    }
+    #user-profile .personal-infomation .district{
+        margin-top: 85px;
+        margin-left: 0px;
+    }
+}

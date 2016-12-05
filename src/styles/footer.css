@@ -1,0 +1,12 @@
+footer.footer {
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+
+footer.footer a {
+  color: #1B9AF7;
+}
+
+footer.footer ul.nav.nav-stacked > li > a {
+  padding: 0;
+}

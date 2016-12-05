@@ -1,0 +1,605 @@
+/** LIST **/
+#advertisement-list {
+    background-color: #E2E2E2;
+    padding-bottom: 20px;
+}
+#advertisement-list header {
+    background-color: #fff;
+}
+#advertisement-list .list-all {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#advertisement-list header .brand{
+    background-image: url('./assets/curiocity.png');
+    background-repeat: no-repeat;
+    background-size: 150px 142px;
+    background-position: center;
+    width: 100%;
+    height: 150px;
+    display: none;
+}
+#advertisement-list .navbar {
+    background-color: #E2E2E2;
+}
+#advertisement-list .navbar-nav {
+    letter-spacing: 3px;
+
+}
+#advertisement-list .advertisement-item {
+    color: #333;
+    padding: 0;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#advertisement-list .advertisement-item .advertisement-title {
+    width: 73%;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin-left: 15px;
+}
+#advertisement-list .advertisement-item .top-thumbnail{
+    border-bottom: 1px solid #f5f5f5;
+    padding: 3px 0 2px 3px;
+}
+#advertisement-list .advertisement-item .top-thumbnail .balance{
+    font-weight: bold;
+    font-size: 15px;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block{
+    padding-right: 5px;
+    font-size: 15px;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block i{
+    margin-right: 3px;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block .favorited{
+    margin-right: 5px;
+    color: #ed2524;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block .liked{
+    color: #337ab7;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block .favorite{
+    margin-right: 5px;
+    color: #555;
+}
+#advertisement-list .advertisement-item .top-thumbnail .like-block .like{
+    color: #555;
+}
+#advertisement-list .advertisement-item .img-responsive{
+    width: 100%;
+    max-height: 336px;
+}
+#advertisement-list .advertisement-item .caption {
+    background-color: #fff;
+    padding: 0;
+}
+#advertisement-list .advertisement-item .caption .advertisement-type {
+    /*line-height: 65px;*/
+    height: 90px;
+    font-size: 16px;
+    text-align: center;
+    font-weight: bold;
+    padding-left: 0;
+    padding-right: 0;
+    display: table;
+}
+#advertisement-list .advertisement-item .caption .advertisement-type span{
+    display: table-cell;
+    vertical-align: middle;
+}
+#advertisement-list .advertisement-item .caption .advertisement-type.survey {
+    background-color: #FFFF7A;
+    color: #333;
+}
+#advertisement-list .advertisement-item .caption .advertisement-type.advertise {
+    background-color: #F93324;
+    color: #fff;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc h4 {
+    font-size: 16px;
+    font-weight: bold;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc h4 .advertisement-timeago {
+    font-size: 13px;
+    font-weight: normal;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc .sub-title{
+    font-weight: 600 !important;
+    margin-bottom: 10px;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc h4 .advertisement-timeago .pull-right{
+    min-width: 57px;
+    padding-right: 5px;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc p.quote {
+    font-size: 13px;
+    font-weight: normal;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+#advertisement-list .advertisement-item .caption .advertisement-desc h5 {
+    font-weight: 600;
+}
+@media screen and (min-width:768px) {
+    #advertisement-list header .brand {
+        display: inherit;
+    }
+    #advertisement-list .navbar {
+        border-radius: 0;
+    }
+    #advertisement-list .navbar-header {
+        display: none;
+    }
+    #advertisement-list .navbar {
+        min-height: 0;
+    }
+    #advertisement-list .navbar-default {
+        border: none;
+    }
+    #advertisement-list .navbar-nav>li>a {
+        line-height: normal;
+        color: #333;
+        font-weight: bold;
+    }
+    #advertisement-list .navbar-nav>li>a {
+        line-height: normal;
+        color: #333;
+        font-weight: bold;
+    }
+    #advertisement-list .navbar-nav {
+        display: table;
+        float: none;
+        margin: 0 auto;
+        table-layout: fixed;
+    }
+}
+
+/** DETAIL **/
+#advertisement-detail {
+    background-color: #E2E2E2;
+}
+#advertisement-detail .carousel-block {
+    padding-bottom: 70px;
+}
+#advertisement-detail .carousel-block .item img{
+    height: 400px;
+}
+#advertisement-detail .carousel-block .carousel-control {
+    display: none;
+}
+#advertisement-detail .carousel-block .carousel.slide .carousel-indicators {
+    bottom: -65px;
+}
+#advertisement-detail .carousel-block .carousel.slide .carousel-indicators li {
+    display: inline-block;
+    width: 30px;
+    height: 30px;
+    margin: 1px;
+    text-indent: -999px;
+    cursor: pointer;
+    border: 1px solid #999;
+    border-radius: 50%;
+    background-color: #FA7470;
+    border: 0px solid #555555;
+}
+#advertisement-detail .carousel-block .carousel.slide .carousel-indicators li.active {
+    background-color: #fa74704d;
+}
+#advertisement-detail .detail-block {
+    background-color:  #fff;
+    padding: 40px 30px;
+}
+#advertisement-detail .detail-block .short-description {
+    font-size: 20px;
+    color: #8d8d8d;
+    /*padding-left: 10px;*/
+    font-weight: normal;
+    text-align: justify;
+}
+#advertisement-detail .detail-block .long-description {
+    text-align: justify;
+}
+#advertisement-detail .detail-block .block-comment{
+    margin-top: -125px;
+}
+#advertisement-detail .detail-block .row-comment{
+    margin-left: 0px;
+    margin-right: 0px;
+}
+#advertisement-detail .detail-block .map-marker i.fa {
+    font-size: 32px;
+    color: #FA7470;
+    padding-bottom: 20px;
+    padding-top: 10px;
+}
+#advertisement-detail .detail-block .comments {
+    padding: 20px 0;
+}
+#advertisement-detail .detail-block .comments .glyphicon.glyphicon-thumbs-up {
+    top: 3px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+#advertisement-detail .detail-block .comments .media .media-body .media-heading span.user,
+#advertisement-detail .detail-block .comments .media .media-body div.time-ago {
+    color: #717171;
+    font-size: 13px;
+}
+#advertisement-detail .detail-block .comments .media .media-body div.time-ago {
+    padding-top: 10px;
+}
+#advertisement-detail .detail-block .comments .media .media-body #comment-box {
+    margin-top: 20px;
+}
+#advertisement-detail .detail-block .comments .media .media-body #comment-box .btn-post-comment{
+    font-size: 14px;
+}
+#advertisement-detail .detail-block .quiz {
+    margin-bottom: 20xp;
+    margin-top: 20px;
+    background-color: #C6C6C6;
+    border: 0px solid #555555;
+    color: #000;
+}
+#advertisement-detail .detail-block .quiz .quiz-question{
+    font-size: 1.2em;
+    padding-left: 30px;
+    margin-bottom: 20px;
+}
+#advertisement-detail .detail-block .quiz .quiz-answers{
+    margin-bottom: 10px;
+}
+#advertisement-detail .detail-block .quiz .quiz-answers .btn.btn-answer {
+    margin-bottom: 10xp;
+    margin-top: 10px;
+    text-align: center;
+    background-color: #FA7470;
+    border: 2px solid #FFFFFF;
+    border-radius: 8px;
+    color: #fff;
+    white-space: normal;
+    width: 100%
+}
+#advertisement-detail .detail-block .quiz .indicate-question {
+    text-align: center;
+    font-size: 1.2em;
+    margin-top: 30px;
+}
+#advertisement-detail .detail-block .quiz .indicate-question span{
+    margin: 0 15px;
+}
+.pager li > a{
+    border-radius: 8px !important;
+}
+#advertisement-detail .detail-block .quiz .btn.btn-submit {
+    margin-left: -32px;
+    margin-top: 10px;
+    color: #fff
+}
+#advertisement-detail .detail-block .highlights,
+#advertisement-detail .detail-block .share-it-now,
+#advertisement-detail .detail-block .map {
+    background-color: #fff;
+    border: none;
+    padding: 0;
+    padding-bottom: 20px;
+}
+#advertisement-detail .detail-block .share-it-now {
+    border-bottom: 2px solid #E2E2E2;
+}
+#advertisement-detail .detail-block .share-it-now i.fa {
+    cursor: pointer;
+}
+#advertisement-detail .detail-block .share-it-now button.btn {
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FA7470;
+}
+#advertisement-detail .detail-block .share-it-now .text-share-it-now{
+    border: none;
+    color: #fff;
+    font-weight: bold;
+    background-color: #FA7470;
+}
+#advertisement-detail .detail-block .share-it-now button.btn:hover{
+    cursor: pointer;
+}
+#advertisement-detail .detail-block .highlights i.fa {
+    font-size: 20px;
+    color: #FA7470;
+}
+.list-all .advertisement-desc{
+    height: 80px;
+    overflow: hidden;
+}
+.list-all .advertisement-desc h4{
+    margin-bottom: 3px
+}
+.list-all .advertisement-desc .quote{
+    margin-bottom: 3px
+}
+#advertisement-detail .carousel-block .item img{
+    width: 100%
+}
+#user-avatar{
+    display: none;
+}
+#preview-avatar{
+    width: 100%;
+}
+#user_avatar{
+    display: none;
+}
+.user-avatar{
+    width: 100%;
+}
+.quiz-time-remaining{
+    padding-left: 0 !important;
+    font-size: 1em !important;
+}
+.btn-adv-loadmore{
+    display: table;
+    margin: auto;
+    padding: 8px 130px;
+    color: #e1df19;
+    text-transform: uppercase;
+    font-size: 13px;
+    background-color: #000;
+}
+.has-error .help-block, .has-error .control-label, .has-error .radio, .has-error .checkbox, .has-error .radio-inline, .has-error .checkbox-inline, .has-error.radio label, .has-error.checkbox label, .has-error.radio-inline label, .has-error.checkbox-inline label {
+    color: #a94442;
+}
+
+.help-block {
+    display: block;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: #a94442;
+}
+.btn-unfavorite{
+    background-color: #FA7470;
+    border: 1px solid #FFFFFF;
+    color: #fff;
+}
+.adv-like{
+    font-size: 1.6em;
+    color: #337ab7;
+    font-size: 1.6em;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+.adv-unlike{
+    font-size: 1.6em;
+    color: #337ab7;
+    font-size: 1.6em;
+    position: absolute;
+    right: 35px;
+    top: 25px;
+}
+.adv-unlike .unlike{
+    color: #c0c0c0;
+}
+.adv-list-fix-height{
+    /*height: 437px;*/
+}
+.btn-facebook-register .fa-facebook{
+    display: none;
+}
+
+
+/*RESPONSIVE*/
+@media screen and (min-width: 480px) and (max-width: 768px) {
+    #advertisement-detail .carousel-block .item img {
+        height: 512px;
+    }
+    #advertisement-detail .detail-block {
+        padding-top: 5px;
+    }
+    #advertisement-detail .detail-block h1{
+        font-size: 24px;
+    }
+    .adv-like {
+        right: 15px;
+        top: 0px;
+    }
+    #advertisement-detail .detail-block .short-description {
+        font-size: 18px;
+        text-align: justify;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-question {
+        padding: 0px !important;
+        text-align: justify;
+    }
+    #advertisement-detail .detail-block .quiz .indicate-question {
+        display: none;
+    }
+    #advertisement-detail .detail-block .quiz .btn.btn-submit {
+        margin-top: 20px;
+        margin-right: 165px;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-answers{
+        padding: 0px;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-answers .col-md-6{
+        padding: 0px;
+    }
+    .carousel-indicators {
+        left: 0%;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .adv-unlike {
+        top: 0;
+        right: 15px;
+    }
+    #advertisement-detail .detail-block .col-md-9 .long-description{
+        word-wrap: break-word;
+        text-align: justify;
+    }
+    .quiz .container .col-md-9{
+        padding-right: 0;
+    }
+    .quiz .container .col-md-9 .col-md-1{
+        padding-right: 0;
+    }
+    .footer.footer {
+        padding-top: 0px;
+    }
+    #advertisement-detail .detail-block .share-it-now{
+        margin-top: 40px;
+    }
+    #advertisement-detail .detail-block .block-comment{
+        margin-top: 0;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-answers .btn.btn-answer {
+        width: 70%;
+        float: left;
+        margin-left: 52px;
+    }
+    .list-all .advertisement-desc{
+        height: auto;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-type{
+        width: 100%;
+        font-size: 16px;
+    }
+    .list-all .advertisement-desc .quote {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    #advertisement-detail .carousel-block .item img {
+        height: 230px;
+    }
+    #advertisement-detail .detail-block {
+        padding-top: 5px;
+    }
+    #advertisement-detail .detail-block h1{
+        font-size: 24px;
+    }
+    .adv-like {
+        right: 15px;
+        top: 0px;
+    }
+    #advertisement-detail .detail-block .short-description {
+        font-size: 18px;
+        text-align: justify;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-question {
+        padding: 0px !important;
+        text-align: justify;
+    }
+    #advertisement-detail .detail-block .quiz .indicate-question {
+        display: none;
+    }
+    #advertisement-detail .detail-block .quiz .btn.btn-submit {
+        margin-top: 20px;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-answers{
+        padding: 0px;
+    }
+    #advertisement-detail .detail-block .quiz .quiz-answers .col-md-6{
+        padding: 0px;
+    }
+    .carousel-indicators {
+        left: 0%;
+        width: 100%;
+        padding-left: 0;
+        margin-left: 0;
+    }
+    .adv-unlike {
+        top: 0;
+        right: 15px;
+    }
+    #advertisement-detail .detail-block .col-md-9 .long-description{
+        word-wrap: break-word;
+        text-align: justify;
+    }
+    .quiz .container .col-md-9{
+        padding-right: 0;
+    }
+    .quiz .container .col-md-9 .col-md-1{
+        padding-right: 0;
+    }
+    .footer.footer {
+        padding-top: 0px;
+    }
+    #advertisement-detail .detail-block .share-it-now{
+        margin-top: 40px;
+    }
+    #advertisement-detail .detail-block .block-comment{
+        margin-top: 0;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-desc h4 .advertisement-timeago .pull-right {
+        min-width: 82px;
+    }
+    #advertisement-list .advertisement-item .advertisement-title {
+        display: inline-block;
+        width: 63%;
+    }
+    #advertisement-detail .detail-block .comments .media .media-body .media-heading span.user{
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 120px;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-type{
+        width: 100%;
+        font-size: 16px;
+    }
+    .list-all .advertisement-desc{
+        height: auto;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-desc p.quote {
+        text-overflow: clip;
+        overflow: auto;
+        white-space: normal;
+    }
+    .list-all .advertisement-desc .quote {
+        margin-bottom: 10px;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    #advertisement-list .advertisement-item .advertisement-title {
+        width: 60%;
+    }
+    #advertisement-detail .detail-block .comments .media .media-body .media-heading span.user{
+        display: inline-block;
+        white-space: nowrap;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        width: 90px;
+    }
+    #advertisement-detail .detail-block .comments .media img{
+        width: 50px;
+        height: 50px;
+    }
+    #advertisement-detail .carousel-block .item img {
+        height: 213px;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-type{
+        width: 100%;
+        font-size: 16px;
+    }
+    #advertisement-list .advertisement-item .caption .advertisement-desc p.quote {
+        text-overflow: clip;
+        overflow: auto;
+        white-space: normal;
+    }
+    .list-all .advertisement-desc .quote {
+        margin-bottom: 10px;
+    }
+}
+
+/*END RESPONSIVE*/
